@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Consultant {
+  width: 28%;
+  text-align: center;
+  margin: 20px;
+}
+
+.circular-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+
+form {
+  margin-top: 20px;
+}
+
+
+body {
+  background-image: url('backro.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+

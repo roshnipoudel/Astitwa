@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consult</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
+     <link href="consult.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navabr-light bg-light sticky-top">
+<div class="container-fluid">
+    <a class="navbar-brand" href="http://localhost:5500/Aaastitwa/html.html"><img src="six.jpg"></a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse"     
+    data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:5500/Aaastitwa/html.html">Home</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:5500/Aaastitwa/video.html">Video Library</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:5500/Aaastitwa/quiz/">Play</a>
+        </li>
+    
+     
+        <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:5500/Aaastitwa/profes.html">Consult</a>
+        </li>
+      
+
+    </ul>
+</div>
+</div>
+</nav>
+
+    <div class="display-2">
+        <h1>Book your Appointment</h1>
+    </div>
+
+    <form id="consultationForm">
+        <label for="childName">Child Name:</label>
+        <input type="text" id="childName" name="childName" required><br><br>
+        
+        <label for="childAge">Child Age:</label>
+        <input type="number" id="childAge" name="childAge" required><br><br>
+        
+
+        <label for="gender">Gender:</label>
+<select id="gender" name="gender">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+</select>
+<br> <br>
+<!-- 
+        <label for="childGender">Child Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="childGender" value="male">
+        
+        <input type="radio" id="female" name="childGender" value="female">
+        <br><br> -->
+        
+        <label for="parentName">Parent's Name:</label>
+        <input type="text" id="parentName" name="parentName" required><br><br>
+        
+        <label for="contactNumber">Contact Number:</label>
+        <input type="tel" id="contactNumber" name="contactNumber" required><br><br>
+        
+        <label for="address">Address:</label> 
+        <textarea id="address" name="address" required></textarea><br><br>
+    
+        <div class="form-set">
+        <input type="submit" value="Submit">
+        </div>
+      </form>
+         <script src="consult.js"></script>
+
+</body>
+</html>
